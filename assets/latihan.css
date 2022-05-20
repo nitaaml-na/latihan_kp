@@ -1,3 +1,7 @@
+body {
+    background-image: url('/brown-bg.png');
+}
+
 p {
     font-size: 20px; /*embedded*/
     color: aqua;
@@ -10,5 +14,63 @@ p#a {
 div.text {
     padding: 10px;
     margin: 12px;
-    background-color: blue;
+}
+
+
+.nav_bar_menu {
+    width: 100%;
+    margin: 0 auto;
+    background-color: chocolate;
+
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #c7b39d;
+    background-color: aliceblue;
+    padding: 10px;
+    float: left;
+    font-weight: bold;
+    width: auto;
+}
+.active{
+    background-color: rgb(107, 101, 94);
+    color: chocolate;
+}
+
+.nav_bar_menu ul {
+    list-style: none;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    display: block;
+    float: left;
+    width: 101vw;
+    background-color: #c7b39d;
+    z-index: 1000;
+    margin-top: 0px;
+    margin-left: 1px;
+}
+
+.nav_bar_menu ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c7b39d;
+    float: left;
+}
+
+.nav_bar_menu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav_bar_menu ul li a:hover {
+    background-color: #c7b39d;
 }
